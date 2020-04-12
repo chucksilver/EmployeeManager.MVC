@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\plata\\WorkFolder\\EmployeeManager.MVC\\EmployeeManager.MVC\\EmployeeManager.MVC.csproj": {}
+    "C:\\Users\\cplata\\Source\\Repos\\chucksilver\\EmployeeManager.MVC\\EmployeeManager.MVC\\EmployeeManager.MVC\\EmployeeManager.MVC.csproj": {}
   },
   "projects": {
-    "D:\\plata\\WorkFolder\\EmployeeManager.MVC\\EmployeeManager.MVC\\EmployeeManager.MVC.csproj": {
+    "C:\\Users\\cplata\\Source\\Repos\\chucksilver\\EmployeeManager.MVC\\EmployeeManager.MVC\\EmployeeManager.MVC\\EmployeeManager.MVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\plata\\WorkFolder\\EmployeeManager.MVC\\EmployeeManager.MVC\\EmployeeManager.MVC.csproj",
+        "projectUniqueName": "C:\\Users\\cplata\\Source\\Repos\\chucksilver\\EmployeeManager.MVC\\EmployeeManager.MVC\\EmployeeManager.MVC\\EmployeeManager.MVC.csproj",
         "projectName": "EmployeeManager.MVC",
-        "projectPath": "D:\\plata\\WorkFolder\\EmployeeManager.MVC\\EmployeeManager.MVC\\EmployeeManager.MVC.csproj",
+        "projectPath": "C:\\Users\\cplata\\Source\\Repos\\chucksilver\\EmployeeManager.MVC\\EmployeeManager.MVC\\EmployeeManager.MVC\\EmployeeManager.MVC.csproj",
         "packagesPath": "C:\\Users\\cplata\\.nuget\\packages\\",
-        "outputPath": "D:\\plata\\WorkFolder\\EmployeeManager.MVC\\EmployeeManager.MVC\\obj\\",
+        "outputPath": "C:\\Users\\cplata\\Source\\Repos\\chucksilver\\EmployeeManager.MVC\\EmployeeManager.MVC\\EmployeeManager.MVC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -41,6 +41,20 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0-preview.2.20159.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

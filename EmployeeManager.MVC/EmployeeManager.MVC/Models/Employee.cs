@@ -7,6 +7,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace EmployeeManager.MVC.Models
 {
+    [Table("Employee")]
     public class Employee
     {
     }
